@@ -1,0 +1,48 @@
+body {
+    background-color: #cafcfb;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    text-align: justify
+}
+
+img {
+    width: 400px
+}
+
+button {
+    border-radius: 15px;
+    border-color: black;
+    color: black;
+    padding: 8px;
+    font-size: medium;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(105, 174, 253);
+    /* background-color: rgb(253, 186, 60); */
+    transition: border .3s;
+}
+
+button:hover {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+img[alt='gato-vivo'] {
+    clip-path: inset(0px 50% 0px 0px) /*(top right bottom left)*/
+}
+
+img[alt='gato-morto'] {
+    clip-path: inset(0px 10px 0px 50%)
+}
+
+#paragrafo {
+    box-sizing: border-box;
+    width: 600px;
+    height: 500px
+}
+
+#aqui {
+    text-decoration: none;
+    color: rgb(42, 86, 231)
+}
